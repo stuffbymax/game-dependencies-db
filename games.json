@@ -2,20 +2,103 @@
   {
     "name": "Skyrim",
     "directx": "DirectX 9.0c",
-    "vcredist": ["2010", "2015-2022"],
+    "vcredist": ["2010", "2013", "2015-2022"],
     "dotnet": "4.0",
-    "dlls": ["xinput1_3.dll", "d3dx9_42.dll"],
+    "dlls": ["xinput1_3.dll", "d3dx9_42.dll", "msvcr100.dll"],
     "downloads": {
       "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
       "vcredist": {
         "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe",
+        "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe",
         "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
       },
-      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework"
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40"
     },
     "fixes": [
-      "Run the game as administrator",
-      "Use compatibility mode for Windows 7"
+      "Set game to run as Administrator.",
+      "Install missing Visual C++ Redistributables.",
+      "Force DirectX 9 mode with launch argument: -dx9"
+    ]
+  },
+  {
+    "name": "Battlefield 3",
+    "directx": "DirectX 11",
+    "vcredist": ["2008", "2010", "2012"],
+    "dotnet": "3.5",
+    "dlls": ["msvcr90.dll", "d3dcompiler_43.dll", "xinput1_3.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+        "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe",
+        "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+    },
+    "fixes": [
+      "Install all required VC++ versions.",
+      "Use Origin’s repair tool.",
+      "Ensure DirectX setup is complete (via redistributable installer)."
+    ]
+  },
+  {
+    "name": "Dark Souls III",
+    "directx": "DirectX 11",
+    "vcredist": ["2012", "2013", "2015-2022"],
+    "dotnet": "4.5",
+    "dlls": ["msvcp140.dll", "vcruntime140.dll", "d3dcompiler_47.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe",
+        "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe",
+        "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+    },
+    "fixes": [
+      "Install 2015-2022 VC++ redist (game crashes without it).",
+      "Disable Steam Overlay for stability.",
+      "Verify integrity of game files."
+    ]
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "directx": "DirectX 11",
+    "vcredist": ["2012", "2013"],
+    "dotnet": "4.5",
+    "dlls": ["msvcr110.dll", "msvcp110.dll", "d3d11.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe",
+        "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+    },
+    "fixes": [
+      "Install VC++ 2012/2013 if game fails to start.",
+      "Make sure latest GPU drivers are installed.",
+      "Try launching in windowed mode for first boot."
+    ]
+  },
+  {
+    "name": "Spore",
+    "directx": "DirectX 9.0c",
+    "vcredist": ["2005"],
+    "dotnet": "2.0",
+    "dlls": ["d3dx9_27.dll", "msvcr80.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2005": "https://www.microsoft.com/en-us/download/details.aspx?id=26347"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net20"
+    },
+    "fixes": [
+      "Install .NET 2.0 manually on Windows 10.",
+      "Use compatibility mode (Windows XP SP3).",
+      "Install DirectX 9 manually to fix `d3dx9_27.dll` error."
     ]
   }
 ]
