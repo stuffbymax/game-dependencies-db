@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Skyrim",
+    "directx": "DirectX 9.0c",
+    "vcredist": ["2010", "2015-2022"],
+    "dotnet": "4.0",
+    "dlls": ["xinput1_3.dll", "d3dx9_42.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe",
+        "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework"
+    },
+    "fixes": [
+      "Run the game as administrator",
+      "Use compatibility mode for Windows 7"
+    ]
+  }
+]
