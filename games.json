@@ -100,5 +100,110 @@
       "Use compatibility mode (Windows XP SP3).",
       "Install DirectX 9 manually to fix `d3dx9_27.dll` error."
     ]
+  },
+  {
+    "name": "Fallout: New Vegas",
+    "directx": "DirectX 9.0c",
+    "vcredist": ["2008", "2010"],
+    "dotnet": "3.5",
+    "dlls": ["d3dx9_38.dll", "msvcr90.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+        "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+    },
+    "fixes": [
+      "Run with compatibility mode (Windows 7).",
+      "Use NVSE for improved mod support and stability.",
+      "Install missing VC++ 2008 and 2010 libraries."
+    ]
+  },
+    {
+    "name": "Fallout 3",
+    "directx": "DirectX 9.0c",
+    "vcredist": ["2005", "2008"],
+    "dotnet": "3.5",
+    "dlls": ["xlive.dll", "d3dx9_33.dll", "msvcr80.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2005": "https://www.microsoft.com/en-us/download/details.aspx?id=26347",
+        "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+    },
+    "fixes": [
+      "Install Games for Windows Live Redistributable to resolve xlive.dll errors.",
+      "Run in compatibility mode (Windows XP SP3 or Windows 7).",
+      "Set game to run as Administrator."
+    ]
+  },
+  {
+    "name": "Fallout 4",
+    "directx": "DirectX 11",
+    "vcredist": ["2012", "2013", "2015-2022"],
+    "dotnet": "4.5",
+    "dlls": ["vcruntime140.dll", "msvcp140.dll", "d3dcompiler_47.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe",
+        "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe",
+        "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+    },
+    "fixes": [
+      "Install all required Visual C++ Redistributables.",
+      "Disable mods if the game crashes on startup.",
+      "Run game as Administrator and disable fullscreen optimizations."
+    ]
+  },
+  {
+    "name": "Mass Effect 2",
+    "directx": "DirectX 9.0c",
+    "vcredist": ["2005", "2008"],
+    "dotnet": "3.5",
+    "dlls": ["d3dx9_29.dll", "msvcr80.dll", "msvcr90.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2005": "https://www.microsoft.com/en-us/download/details.aspx?id=26347",
+        "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+    },
+    "fixes": [
+      "Manually install missing DLLs from DirectX 9 SDK.",
+      "Install both x86 and x64 versions of VC++ redistributables.",
+      "Run in compatibility mode if launcher fails."
+    ]
+  },
+  {
+    "name": "Dragon Age: Inquisition",
+    "directx": "DirectX 11",
+    "vcredist": ["2010", "2012", "2013"],
+    "dotnet": "4.5",
+    "dlls": ["d3dcompiler_43.dll", "msvcp110.dll", "xinput1_3.dll"],
+    "downloads": {
+      "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+      "vcredist": {
+        "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe",
+        "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe",
+        "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe"
+      },
+      "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+    },
+    "fixes": [
+      "Disable Origin overlay if crashing.",
+      "Ensure VC++ 2012/2013 are installed.",
+      "Repair game files via Origin/EA App."
+    ]
   }
 ]
+
+
+
