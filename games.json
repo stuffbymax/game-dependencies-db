@@ -1,7 +1,7 @@
 [
   {
     "name": "Skyrim",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/The_Elder_Scrolls_V_Skyrim_cover.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
     "directx": "DirectX 9.0c",
     "vcredist": ["2010", "2013", "2015-2022"],
     "dotnet": "4.0",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Battlefield 3",
-    "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Battlefield_3_cover.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Battlefield_3_Game_Cover.jpg",
     "directx": "DirectX 11",
     "vcredist": ["2008", "2010", "2012"],
     "dotnet": "3.5",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Dark Souls III",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Dark_Souls_III_cover_art.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Dark_souls_3_cover_art.jpg",
     "directx": "DirectX 11",
     "vcredist": ["2012", "2013", "2015-2022"],
     "dotnet": "4.5",
@@ -88,7 +88,7 @@
   },
   {
     "name": "Spore",
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Sporebox.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/77/Sporebox.jpg",
     "directx": "DirectX 9.0c",
     "vcredist": ["2005"],
     "dotnet": "2.0",
@@ -108,7 +108,7 @@
   },
   {
     "name": "Fallout: New Vegas",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Fallout_New_Vegas_box_art.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Fallout_New_Vegas.jpg",
     "directx": "DirectX 9.0c",
     "vcredist": ["2008", "2010"],
     "dotnet": "3.5",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Fallout 3",
-    "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Fallout_3_box_art.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/83/Fallout_3_cover_art.PNG",
     "directx": "DirectX 9.0c",
     "vcredist": ["2005", "2008"],
     "dotnet": "3.5",
@@ -150,7 +150,7 @@
   },
   {
     "name": "Fallout 4",
-    "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Fallout_4_cover_art.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Fallout_4_cover_art.jpg",
     "directx": "DirectX 11",
     "vcredist": ["2012", "2013", "2015-2022"],
     "dotnet": "4.5",
@@ -172,7 +172,7 @@
   },
   {
     "name": "Mass Effect 2",
-    "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Mass_Effect_2_cover.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG",
     "directx": "DirectX 9.0c",
     "vcredist": ["2005", "2008"],
     "dotnet": "3.5",
