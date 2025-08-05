@@ -254,6 +254,27 @@
 ]
 },
 {
+  "name": "Assassin's Creed IV: Black Flag",
+  "image": "https://upload.wikimedia.org/wikipedia/en/7/77/Assassin%27s_Creed_IV_-_Black_Flag_cover.jpg",
+  "directx": "DirectX 11",
+  "vcredist": ["2008", "2010"],
+  "dotnet": "3.5",
+  "dlls": ["d3d11.dll", "msvcr90.dll", "xinput1_3.dll"],
+  "downloads": {
+    "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+    "vcredist": {
+      "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+      "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe"
+    },
+    "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+  },
+  "fixes": [
+    "Install required VC++ redistributables (2008, 2010).",
+    "Run Uplay/Ubisoft Connect as Administrator.",
+    "Disable fullscreen optimizations for better stability."
+  ]
+},
+{
 "name": "Red Dead Redemption 2",
 "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
 "directx": "DirectX 12",
