@@ -272,5 +272,71 @@
 "Run the game as an administrator.",
 "Verify integrity of game files."
 ]
+},
+{
+"name": "Sniper: Ghost Warrior",
+"image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Sniper_Ghost_Warrior.jpg",
+"directx": "DirectX 9.0c",
+"vcredist": ["2008", "2010"],
+"dotnet": "3.5",
+"dlls": ["d3dx9_43.dll", "msvcr90.dll", "xinput1_3.dll"],
+"downloads": {
+  "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+  "vcredist": {
+    "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+    "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe"
+  },
+  "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+},
+"fixes": [
+  "Install DirectX 9.0c to resolve missing d3dx9_43.dll errors.",
+  "Install VC++ 2008 and 2010 redistributables.",
+  "Run the game in compatibility mode if it crashes on launch."
+]
+},
+{
+"name": "Sniper: Ghost Warrior 2",
+"image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Sniper_-_Ghost_Warrior_2_coverart.jpg",
+"directx": "DirectX 9.0c",
+"vcredist": ["2008", "2010"],
+"dotnet": "3.5",
+"dlls": ["d3dx9_43.dll", "msvcr90.dll", "xinput1_3.dll"],
+"downloads": {
+  "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+  "vcredist": {
+    "2008": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+    "2010": "https://aka.ms/vs/10/sp1/vcredist_x64.exe"
+  },
+  "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35"
+},
+"fixes": [
+  "Install DirectX 9.0c to resolve missing d3dx9_43.dll errors.",
+  "Install VC++ 2008 and 2010 redistributables.",
+  "Run the game in compatibility mode if it crashes on launch."
+]
+},
+{
+"name": "Sniper: Ghost Warrior 3",
+"image": "https://upload.wikimedia.org/wikipedia/en/7/74/Sniper_Ghost_Warrior_3_cover_art.jpg",
+"directx": "DirectX 11",
+"vcredist": ["2012", "2013", "2015-2022"],
+"dotnet": "4.5",
+"dlls": ["d3dcompiler_47.dll", "msvcp140.dll", "vcruntime140.dll"],
+"downloads": {
+  "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+  "vcredist": {
+    "2012": "https://aka.ms/vs/11/release/vcredist_x64.exe",
+    "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe",
+    "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  },
+  "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+},
+"fixes": [
+  "Install all required Visual C++ Redistributables.",
+  "Ensure DirectX 11 is installed.",
+  "Run the game as Administrator if issues occur."
+]
 }
+
+
 ]
