@@ -104,6 +104,10 @@
 "Install .NET 2.0 manually on Windows 10.",
 "Use compatibility mode (Windows XP SP3).",
 "Install DirectX 9 manually to fix d3dx9_27.dll error."
+],
+"manuals": [
+    "https://example.com/skyrim/manual.pdf",
+    "https://example.com/skyrim/quickstart-guide.pdf"
 ]
 },
 {
