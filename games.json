@@ -340,7 +340,28 @@
   "Ensure DirectX 11 is installed.",
   "Run the game as Administrator if issues occur."
 ]
-}
-
-
+},
+{
+"name": "Everspace",
+"image": "https://upload.wikimedia.org/wikipedia/en/6/62/Everspace_cover_art.jpg",
+"directx": "DirectX 11",
+"vcredist": ["2013", "2015-2022"],
+"dotnet": "4.5",
+"dlls": ["d3dcompiler_47.dll", "msvcp140.dll", "vcruntime140.dll"],
+"downloads": {
+  "directx": "https://www.microsoft.com/en-us/download/details.aspx?id=35",
+  "vcredist": {
+    "2013": "https://aka.ms/vs/12/release/vcredist_x64.exe",
+    "2015-2022": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  },
+  "dotnet": "https://dotnet.microsoft.com/en-us/download/dotnet-framework/net45"
+},
+"fixes": [
+  "Update graphics drivers to latest version.",
+  "Verify game files through Steam or GOG.",
+  "Install required Visual C++ Redistributables (2013 and 2015-2022).",
+  "Run the game with Administrator privileges if crashes occur."
 ]
+}
+]
+
