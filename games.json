@@ -343,7 +343,7 @@
 },
 {
 "name": "Everspace",
-"image": "https://upload.wikimedia.org/wikipedia/en/6/62/Everspace_cover_art.jpg",
+"image": "https://upload.wikimedia.org/wikipedia/en/c/c0/Everspace_cover_art.jpg",
 "directx": "DirectX 11",
 "vcredist": ["2013", "2015-2022"],
 "dotnet": "4.5",
